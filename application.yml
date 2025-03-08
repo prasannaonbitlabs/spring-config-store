@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306:sampale?createDatabaseIfNotExist=true
     username: root
     password: 123
-    driver-class-name: org.hibernate.dialect.MySQL8Dialect
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       naming:
